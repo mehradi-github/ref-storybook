@@ -4,6 +4,7 @@
 
 - [Storybook](#storybook)
   - [Installation](#installation)
+  - [Install Tailwind CSS](#install-tailwind-css)
 
 ## Installation
 
@@ -15,3 +16,5 @@ npm install --save-dev @storybook/react-vite
 npm run storybook
 
 ```
+
+## [Install Tailwind CSS](https://github.com/mehradi-github/ref-portfolio?tab=readme-ov-file#install-tailwind-css-with-nextjs)
