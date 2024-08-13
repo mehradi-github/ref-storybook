@@ -12,6 +12,9 @@ const meta = {
     disabled: {
       control: 'boolean',
     },
+    variant: {
+      control: 'select',
+    },
   },
 } satisfies Meta;
 
