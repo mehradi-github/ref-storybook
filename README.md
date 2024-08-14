@@ -15,6 +15,10 @@ npm install --save-dev @storybook/react-vite
 
 npm run storybook
 
+npx storybook add @storybook/addon-theme
+
 ```
 
 ## [Install Tailwind CSS](https://github.com/mehradi-github/ref-portfolio?tab=readme-ov-file#install-tailwind-css-with-nextjs)
+
+Reference: [Building Design Systems in Storybook](https://stevekinney.net/courses/storybook/setting-up)

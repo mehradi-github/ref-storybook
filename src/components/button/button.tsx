@@ -6,6 +6,11 @@ export type ButtonProps = ComponentProps<'button'> & {
 };
 
 export const Button = ({ variant = 'primary', className, ...props }: ButtonProps) => {
-  const classes: string = clsx(styles.button, styles[variant], className);
+  const classes: string = clsx(
+    'bg-indigo-500 hover:bg-indigo-400',
+    styles.button,
+    styles[variant],
+    className,
+  );
   return <button className={classes} {...props} />;
 };
