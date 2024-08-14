@@ -11,6 +11,11 @@ export default {
       transparent,
       currentColor,
     },
+    extend: {
+      fontFamily: {
+        sans: ['Inter Variable', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 } satisfies Config;
