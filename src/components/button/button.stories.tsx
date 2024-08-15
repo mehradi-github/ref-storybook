@@ -11,6 +11,19 @@ const meta = {
     variant: 'primary',
   },
   argTypes: {
+    children: {
+      name: 'Label',
+      control: 'select',
+      description: 'Text to display on the button',
+      options: ['Button', 'Click me', 'Submit', 'Cancel'],
+      table: {
+        disable: true,
+      },
+    },
+    size: {
+      control: 'select',
+      options: ['small', 'medium', 'large'],
+    },
     disabled: {
       control: 'boolean',
     },
