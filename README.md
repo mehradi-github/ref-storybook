@@ -5,6 +5,7 @@
 - [Building Design Systems in Storybook](#building-design-systems-in-storybook)
   - [Installation](#installation)
   - [Install Tailwind CSS](#install-tailwind-css)
+  - [References:](#references)
 
 ## Installation
 
@@ -20,3 +21,10 @@ npx storybook add @storybook/addon-theme
 ```
 
 ## [Install Tailwind CSS](https://github.com/mehradi-github/ref-portfolio?tab=readme-ov-file#install-tailwind-css-with-nextjs)
+
+## References:
+
+- [clsx](https://www.npmjs.com/package/clsx)
+- [cva](https://cva.style/docs)
+- [anthology](https://github.com/stevekinney/anthology/tree/live-coding)
+- [temporalio/ui](https://github.com/temporalio/ui/blob/main/src/lib/theme/plugin.ts)
