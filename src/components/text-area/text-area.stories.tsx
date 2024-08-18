@@ -67,3 +67,21 @@ export const WithCount: Story = {
     expect(count).toHaveTextContent(inputValue.length.toString());
   },
 };
+
+export const LengthTooLong: Story = {
+  args: {
+    maxLength: 150,
+    required: true,
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    const textArea = canvas.getByRole('textbox');
+    const count = canvas.getByTestId('length');
+    const inputValue = 'H' + 'e'.repeat(150) + 'y!';
+
+    await userEvent.type(textArea, inputValue);
+    expect(count).toHaveTextContent(inputValue.length.toString());
+    expect(textArea).toHaveAttribute('aria-invalid', 'true');
+    expect(textArea).toHaveClass('ring-danger-500');
+  },
+};
