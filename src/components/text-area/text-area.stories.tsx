@@ -85,3 +85,18 @@ export const LengthTooLong: Story = {
     expect(textArea).toHaveClass('ring-danger-500');
   },
 };
+
+export const Disabled: Story = {
+  args: {
+    disabled: true,
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    const textArea = canvas.getByRole('textbox');
+    const inputValue = 'Hello world!';
+
+    expect(textArea).toBeDisabled();
+    await userEvent.type(textArea, inputValue);
+    expect(textArea).toHaveValue('');
+  },
+};
