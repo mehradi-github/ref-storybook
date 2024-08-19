@@ -5,6 +5,7 @@
 - [Building Design Systems in Storybook](#building-design-systems-in-storybook)
   - [Installation](#installation)
   - [Install Tailwind CSS](#install-tailwind-css)
+  - [Visual Tests](#visual-tests)
   - [References:](#references)
 
 ## Installation
@@ -21,6 +22,10 @@ npx storybook add @storybook/addon-theme
 ```
 
 ## [Install Tailwind CSS](https://github.com/mehradi-github/ref-portfolio?tab=readme-ov-file#install-tailwind-css-with-nextjs)
+
+## Visual Tests
+
+[Chromatic](https://www.chromatic.com/docs/) is a cloud-based software tool created by the maintainers of Storybook that automates visual testing for UI components and web applications. Since it’s made by the maintainers of Storybook, you can imagine that It integrates seamlessly with Storybook and allows you to capture snapshots of every story and compare them across different commits to identify visual changes.
 
 ## References:
 

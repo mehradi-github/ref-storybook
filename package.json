@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "ts-run": "npx test-storybook"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
@@ -39,7 +40,7 @@
     "@storybook/react": "8.1.6",
     "@storybook/react-vite": "8.1.6",
     "@storybook/test": "8.1.6",
-    "@storybook/test-runner": "0.17.0",
+    "@storybook/test-runner": "^0.17.0",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/eslint-plugin": "7.12.0",
