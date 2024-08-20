@@ -33,3 +33,4 @@ npx storybook add @storybook/addon-theme
 - [cva](https://cva.style/docs)
 - [anthology](https://github.com/stevekinney/anthology/tree/live-coding)
 - [temporalio/ui](https://github.com/temporalio/ui/blob/main/src/lib/theme/plugin.ts)
+- [Global theming](https://storybook.js.org/docs/configure/user-interface/theming#global-theming)
